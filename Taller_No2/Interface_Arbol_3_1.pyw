@@ -1,9 +1,4 @@
-from ast import Delete
-from msilib.schema import Class
-from posixpath import split, splitext
-import string;
 from tkinter import *
-from unittest.mock import seal
 import xml.etree.ElementTree as ET;
 from tkinter import filedialog
 from tkinter import messagebox
