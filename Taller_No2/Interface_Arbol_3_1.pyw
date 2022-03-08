@@ -19,23 +19,12 @@ class App():
 		self.tree = ET.parse('ZOO.xml');
 		self.root = self.tree.getroot();
 
-	def Obtener_contenido(self):
-		return self.contenido;
-	
+	#METODOS
 	def Obtener_Leer_Archivo(self):
 		return self.Leer_Archivo.get();
 	
 	def Set_Leer_Archivo(self, arc):
 		self.Leer_Archivo = arc;
-
-	def Obtener_Pantalla(self):
-		return self.Pantalla;
-	
-	def Set_Pantalla(self):
-		self.Pantalla.replace(self.Pantalla,"");
-
-	def Obtener_Root(self):
-		return self.root;
 
 
 	#LEER ARCHIVO
