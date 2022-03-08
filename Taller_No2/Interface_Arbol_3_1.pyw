@@ -86,7 +86,8 @@ class App():
 		self.raiz.iconbitmap('zoo.ico');
 		self.raiz.geometry("700x500");
 		self.raiz.title("Lector XML");
-		self.raiz.config(bg="#0059b3");	
+		self.raiz.config(bg="#0059b3");
+		self.raiz.resizable(0,0);
 
 		self.miFrame.config(width=600, height=450);
 		self.miFrame.pack();
