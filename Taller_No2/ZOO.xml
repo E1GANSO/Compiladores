@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ZOOLOGICO>
+	<mamiferos>
+		<Animal nombre_cientifico="Gazella dorcas osiris" habitad="Desierto" Alimentacion="Herbivora" tamanio="90-110 cm" peso="15-20 kg">Gacela dorcas
+		</Animal>
+		<Animal nombre_cientifico="Hippopotamus amphibius" habitad="Agua dulce" Alimentacion="Herbivora" tamanio="290-505 cm" peso="1300-4500 kg">Hipopótamo común
+		</Animal>
+		<Animal nombre_cientifico="Alouatta caraya" habitad="Selva" Alimentacion="Herbivora" tamanio="54-65 cm" peso="4-9,5 kg">Mono aullador negro
+		</Animal>
+		<Animal nombre_cientifico="Lama guanicoe" habitad="Sabana" Alimentacion="Herbivora" tamanio="190-215 cm" peso="90-140 kg">Guanaco
+		</Animal>
+		<Animal nombre_cientifico="Giraffa camelopardalis rothschildi" habitad="Sabana" Alimentacion="Herbivora" tamanio="350-480 cm" peso="1000-1900 kg">Jirafa de Rothschild
+		</Animal>
+		<Animal nombre_cientifico="Ailurus fulgens" habitad="Bosque" Alimentacion="Omnivora" tamanio="51-73 cm" peso="3-6 kg">Panda rojo
+		</Animal>
+	</mamiferos>
+	
+	<Aves>
+		<Animal nombre_cientifico="Spheniscus humboldti" habitad="Mar" Alimentacion="Piscivora" tamanio="65-73 cm" peso="3-5 kg">Pájaro bobo de Humboldt
+		</Animal>
+		<Animal nombre_cientifico="Bucorvus leadbeateri" habitad="Sabana" Alimentacion="Carnívora" tamanio="90-100 cm" peso="345-460 g">Cálao terrestre meridional
+		</Animal>
+		<Animal nombre_cientifico="Ara ararauna" habitad="Selva" Alimentacion="Frugivora" tamanio="80-86 cm" peso="1.2-1.7 kg">Guacamayo azul
+		</Animal>
+		<Animal nombre_cientifico="Phoenicopterus ruber" habitad="Humedales" Alimentacion="Filtradora" tamanio="120-150 cm" peso="1.9-4 kg">Flamenco de Cuba
+		</Animal>
+	</Aves>
+
+	<Rectiles>
+		<Animal nombre_cientifico="Varanus komodoensis" habitad="Bosque" Alimentacion="Carnívora" tamanio="3.2 m" peso="70-160 kg">Dragón de Komodo
+		</Animal>
+		<Animal nombre_cientifico="Siebenrockiella crassicollis" habitad="Agua dulce" Alimentacion="Carnívora" tamanio="20 cm" peso="1-2 kg">Galápago negro
+		</Animal>
+		<Animal nombre_cientifico="Caiman yacare" habitad="Agua dulce" Alimentacion="Carnívora" tamanio="150-250 cm" peso="25-50 kg">Caimán yacaré
+		</Animal>
+	</Rectiles>
+	
+</ZOOLOGICO>
