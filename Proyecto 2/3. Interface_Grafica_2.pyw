@@ -211,6 +211,7 @@ class Lenguaje(Alfabeto):
 		return Lista_Inversa;
 
 	def Potencia(self, lista):
+
 		if(len(lista) == 0):
 			return [[]];
 		
@@ -219,6 +220,9 @@ class Lenguaje(Alfabeto):
 		r = self.Potencia(lista[:-1]);
 		return r + [elem + [lista[-1]] for elem in r];
 			
+
+
+		
 
 	def Cardinalidad(self):
 		select = simpledialog.askstring("Cardinal", "INDIQUE EL LENGUAJE A CALCULAR EL CARDINAL: ");
@@ -345,11 +349,15 @@ def Funcion_Potencia_Lenguaje():
 		lista_Potencia = lenguaje.Potencia( lenguaje.GetList_Lenguaje_1());
 		
 		if(pot == 0):
-			
 			Potencia_Lenguaje.insert(INSERT, str(lista_Potencia[0]));
 
 		else:
-			Potencia_Lenguaje.insert(INSERT, str(lista_Potencia[0:(pot+1)]));
+			if(pot % 2 ==0):
+				Potencia_Lenguaje.insert(INSERT, str(lista_Potencia[:(pot+2)]));
+			else:
+				Potencia_Lenguaje.insert(INSERT, str(lista_Potencia[:(pot+1)]));
+
+
 
 	elif(leng == "b" or leng == "B" or leng == "2"):
 		pot = simpledialog.askinteger("Potencia", "INGRESE LA POTENCIA: ");
@@ -357,11 +365,13 @@ def Funcion_Potencia_Lenguaje():
 		lista_Potencia = lenguaje.Potencia( lenguaje.GetList_Lenguaje_2());
 		
 		if(pot == 0):
-			
 			Potencia_Lenguaje.insert(INSERT, str(lista_Potencia[0]));
 
 		else:
-			Potencia_Lenguaje.insert(INSERT, str(lista_Potencia[:(pot+1)]));
+			if(pot % 2 ==0):
+				Potencia_Lenguaje.insert(INSERT, str(lista_Potencia[:(pot+2)]));
+			else:
+				Potencia_Lenguaje.insert(INSERT, str(lista_Potencia[:(pot+1)]));
 						
 
 def Funcion_Inversa_Lenguaje():
